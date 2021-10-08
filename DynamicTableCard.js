@@ -22,6 +22,7 @@ define([
             },
 
             paint: function ($element, layout) {
+                var self = this;
                 var margin = {
                     top: 0,
                     right: 0,
@@ -39,8 +40,30 @@ define([
                 $element.attr("id", id);
                 $('#' + id).css('overflow', 'auto');
 
+                $(idCss + ' .table-qs thead tr th').remove();
+                $(idCss + ' .table-qs tbody tr td').remove();
+
+                layout.qHyperCube.qDataPages.forEach( function(qpage) {
+                    qpage.qMatrix.forEach(function(qmatrix){
+                        var html = '<th scope="col" class="text-center"> ';
+                        html += qmatrix[0].qText;
+                        html += '</th>'
+                        $(idCss + ' .table-qs thead tr:first').append(html);
+
+                        html = '<td class="text-center">';
+                        html += qmatrix[1].qText;
+                        html +='</td>';
+                        $(idCss + ' .table-qs tbody tr:first').append(html);
+                    });
+                });
+                
+                $(idCss + ' .table-qs thead tr th').click(function(){
+                    self.backendApi.selectValues(0, [ $(this).index()], false);
+                });
+
 
                 //DataTables Init
+                /*
                 if (!$.fn.DataTable.isDataTable(idCss + " " + '.datatable_class')) {
                     $(idCss + " " + '.datatable_class').DataTable(
                         {
@@ -48,6 +71,7 @@ define([
                         }
                     );
                 }
+                */
 
                 return qlik.Promise.resolve();
             }

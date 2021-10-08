@@ -4,20 +4,22 @@
     @font-face {
         font-family: "Roboto";
         src: url("../fonts/Roboto-Regular.eot");
-        src: url("../fonts/Roboto-Regular.eot?#iefix") format('embedded-opentype'),
-            url("../fonts/Roboto-Regular.woff2") format('woff2'),
-            url("../fonts/Roboto-Regular.woff") format('woff'),
-            url("../fonts/Roboto-Regular.ttf") format('truetype');
+        src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+            url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"),
+            url("../fonts/Roboto-Regular.ttf") format("truetype");
         font-weight: 400;
         font-style: normal;
     }
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     @import "./style.scss";
 
+    table > thead > tr > th:hover {
+        background: #f2f2f2 !important;
+        cursor: pointer;
+    }
 }
 
 @import "./../bower_components/font-awesome/scss/fontawesome";
 @import "./../bower_components/font-awesome/scss/solid";
 @import "./../bower_components/font-awesome/scss/brands";
 @import "./../bower_components/font-awesome/scss/regular";
-
