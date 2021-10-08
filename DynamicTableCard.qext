@@ -9,6 +9,7 @@
 	"keywords": "qlik-sense, visualization, template",
 	"license": "MIT License",
 	"preview": "image.png",
+	"icon" : "table",
 	"repository": "",
 	"dependencies": {
 		"qlik-sense": ">=3.0.x"
