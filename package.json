@@ -1,0 +1,19 @@
+{
+  "name": "dynamictablecard",
+  "version": "1.0.0",
+  "description": "QlikSense starting extension with Bootstrap and DataTablesjs",
+  "main": "DynamicTableCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-zip": "^5.1.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.42.1"
+  }
+}

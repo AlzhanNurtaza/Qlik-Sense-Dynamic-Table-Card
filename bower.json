@@ -1,0 +1,24 @@
+{
+  "name": "dynamictablecard",
+  "main": "DynamicTableCard.js",
+  "homepage": "https://github.com/AlzhanNurtaza",
+  "authors": [
+    "AlzhanNurtaza <alzhan.nurtaza@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "font-awesome": "^5.15.3",
+    "datatables.net-bs": "^2.1.1",
+    "datatables.net-dt": "^3.2.2",
+    "moment": "^2.29.1"
+  }
+}

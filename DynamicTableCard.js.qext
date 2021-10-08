@@ -1,0 +1,15 @@
+{
+	"name": "DynamicTableCard",
+	"description": "Qlik Sense extension Table Card View",
+	"type": "visualization",
+	"version": "1.0.0",
+	"icon": "extension",
+	"author": "Alzhan Nurtaza",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization, template",
+	"license": "MIT License",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
