@@ -13,7 +13,6 @@ Upload /output/DynamicTableCard.zip to QlikSense
 
 All distr files save in folder "distr"
 
-In folder ouput zip file - which ready to be uploaded
 
 
 
