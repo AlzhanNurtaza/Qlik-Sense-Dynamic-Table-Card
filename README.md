@@ -1,5 +1,11 @@
 # DynamicTableCard
-Task. Create table with 1 dimension and 1 measure. Must look like Multiple KPI with quick selection mode 
+Task. Create table with 1 dimension and 1 measure. Must look like Multiple KPI with quick selection mode.
+Values of Dimensions becomes columns in table with measure values.
+
+
+For Example Dimension = MainNum , Measure = count(id) 
+
+Output will be:
 ![](Example.PNG)
 
 # How to install 
@@ -11,7 +17,7 @@ Upload /output/DynamicTableCard.zip to QlikSense
 3. bower install 
 4. gulp
 
-All distr files save in folder "distr"
+All distr files will be saved in folder "distr"
 
 
 
