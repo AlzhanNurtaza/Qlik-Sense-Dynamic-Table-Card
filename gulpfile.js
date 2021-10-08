@@ -49,7 +49,7 @@ gulp.task('js_images', function() {
 
 
 gulp.task('qfiles', function() {
-    return gulp.src(['./*.{html,js,qext,wbl}', '!./gulpfile.js'] )
+    return gulp.src(['./*.{html,js,qext,wbl, png}', '!./gulpfile.js'] )
         .pipe(gulp.dest('./dist/'));
 });
 
