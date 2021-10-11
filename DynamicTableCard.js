@@ -38,7 +38,6 @@ define([
                 var id = "ID_DBTC_" + layout.qInfo.qId;
                 var idCss = '#' + id;
                 $element.attr("id", id);
-                $('#' + id).css('overflow', 'auto');
 
                 $(idCss + ' .table-qs thead tr th').remove();
                 $(idCss + ' .table-qs tbody tr td').remove();
