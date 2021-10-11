@@ -1,4 +1,4 @@
-.qs-bootstrap-datatable-example {
+.qs-dynamic-table {
     @import "./../bower_components/bootstrap/scss/bootstrap.scss";
 
     @font-face {
@@ -14,7 +14,7 @@
     @import "./style.scss";
 
     table > thead > tr > th:hover {
-        background: #f2f2f2 !important;
+        opacity: 0.7;
         cursor: pointer;
     }
 }
